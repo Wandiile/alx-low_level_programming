@@ -27,7 +27,7 @@ return (w);
 * Return: pointer to an array of strings (Success)
 * or NULL (Error)
 */
-char *strtow(char *str)
+char **strtow(char *str)
 {
 char **matrix, *tmp;
 int i, k = 0, len = 0, words, c = 0, start, end;
@@ -62,5 +62,5 @@ else if (c++ == 0)
 start = i;
 }
 matrix[k] = NULL;
-return (*matrix);
+return (matrix);
 }
