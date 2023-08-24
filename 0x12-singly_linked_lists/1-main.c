@@ -11,7 +11,7 @@
 int main(void)
 {
 list_t *head;
-ist_t *new;
+list_t *new;
 list_t hello = {"World", 5, NULL};
 size_t n;
 
